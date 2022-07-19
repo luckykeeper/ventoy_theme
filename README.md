@@ -1,5 +1,5 @@
 # Ventoy_theme
-个人制作 Ventoy 主题，在 MIT License 下可以自由使用
+个人制作 Ventoy 主题，在 MIT License 下可以自由使用，[Releases页面](https://github.com/luckykeeper/ventoy_theme/releases)提供了国内高速下载链接，可移步下载
 
 主题预览可参考各文件夹内 `background.png` 文件
 
