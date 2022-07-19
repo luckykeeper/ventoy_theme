@@ -1,0 +1,15 @@
+{
+    "control":[
+        { "VTOY_DEFAULT_MENU_MODE": "1" },
+        { "VTOY_WIN11_BYPASS_CHECK": "1" },
+        { "VTOY_HELP_TXT_LANGUAGE": "zh_CN" },
+        { "VTOY_DEFAULT_SEARCH_ROOT": "/isos" }
+    ],
+    "theme":{
+        "file": "/ventoy/lv69/theme.txt",
+        "gfxmode": "1920x1080",
+        "ventoy_left": "1%",
+        "ventoy_top": "1%",
+        "ventoy_color": "#38cca0"
+    }
+}

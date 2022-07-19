@@ -1,0 +1,66 @@
+
+desktop-image: "background.png"
+title-text: " "
+title-color: "#ffffff"
+message-color: "#f2f2f2"
+
+terminal-box: "terminal_box_*.png"
+
++ boot_menu {
+  left = 27%
+  width = 67%
+  top = 10%
+  height = 80%
+
+  menu_pixmap_style = "menu_*.png"
+
+  item_color = "#ffffff"  
+  item_height = 30
+  
+  item_spacing = 1
+  item_padding = 1
+
+  selected_item_color= "#f2f2f2"
+  selected_item_pixmap_style = "select_*.png"
+
+  item_icon_space = 0
+
+  scrollbar = true
+  scrollbar_width = 10
+  scrollbar_thumb = "slider_*.png"
+}
+
+
+
++ progress_bar {
+  id = "__timeout__"
+  text = "@TIMEOUT_NOTIFICATION_SHORT@"
+
+  left = 90%
+  width = 10%
+  top = 90%
+
+  text_color = "red"
+  bar_style = "*"
+  highlight_style = "*"
+}
+
++ hbox{
+    left = 50%-350
+    top = 95%
+    width = 700
+    height = 25
+    + label {text = "@VTOY_HOTKEY_TIP@" color = "blue" align = "center"}
+}
+
++ vbox{
+    left = 70%
+    top = 85%
+    width = 200
+    height = 25
+    + label {text = "@VTOY_ISO_RAW@" color = "red" align = "left"}
+	+ label {text = "@VTOY_MEM_DISK@" color = "red" align = "left"}
+	+ label {text = "@VTOY_GRUB2_MODE@" color = "red" align = "left"}
+	+ label {text = "@VTOY_WIMBOOT_MODE@" color = "red" align = "left"}
+	+ label {text = "@VTOY_ISO_UEFI_DRV@" color = "red" align = "left"}
+}
